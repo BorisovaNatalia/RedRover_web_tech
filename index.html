@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/cvCss.css">
     <title>cv</title>
 </head>
@@ -11,18 +16,167 @@
 <body>
     <div class="wrapper">
         <header>
+            <div class="header_img">
+                <img src="assets/image/photo_3.jpg" alt="my photo">
+            </div>
             <div class="header_text">
                 <h1 class="title">Natalia Borisova</h1>
-                <p class="sub-title">Automation QA</p>
-            </div>
-            <div class="my_img"></div>
+                <p class="sub-title">Automation QA Engineer</p>
+                <div class="header-location">
+                    <img src="assets/image/Location.svg" alt="location">
+                    <p class="title-location">Cary, NC, USA</p>
+                </div>
         </header>
-        <main>
-            <section class="about_me">
-
+        <main class="main_info">
+            <section class="wrapper_left">
+                <div class="content_frame">
+                    <h3 class="frame_title">Contact</h3>
+                    <ul class="content_list">
+                        <li class="content_list_item contact_item">
+                            <img src="assets/image/cellphone.svg" alt="cellphone icon">
+                            <p>+1 (919) 671-45-40</p>
+                        </li>
+                        <li class="content_list_item contact_item">
+                            <img src="assets/image/mail.svg" alt="email icon">
+                            <p>borisovan.work@gmail.com</p>
+                        </li>
+                        <li class="content_list_item contact_item">
+                            <img src="assets/image/linkedin_3.svg" alt="linckedin icon">
+                            <p>www.linkedin.com/in/natalia-borisova-qa</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content_frame custom_bullet_list_frame">
+                    <h3 class="frame_title">Skils</h3>
+                    <ul class="content_list custom_bullet_list">
+                        <li class="content_list_item bullet_list_item">
+                            <p>Java</p>
+                        </li>
+                        <li class="content_list_item bullet_list_item">
+                            <p>JUnit, Rest Assured</p>
+                        </li>
+                        <li class="content_list_item bullet_list_item">
+                            <p>Git</p>
+                        </li>
+                        <li class="content_list_item bullet_list_item">
+                            <p>CI/CD (Git Lab, Jenkins)</p>
+                        </li>
+                        <li class="content_list_item bullet_list_item">
+                            <p>SQL</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content_frame custom_bullet_list_frame">
+                    <h3 class="frame_title">Education</h3>
+                    <ul class="content_list custom_bullet_list">
+                        <li class="content_list_item bullet_list_item">
+                            <h4>2025 - present</h4>
+                            <h5>Red Rover School</h5>
+                            <div class="text_description">
+                                <p>Test Automation on JavaScript Course</p>
+                            </div>
+                        </li>
+                        <li class="content_list_item bullet_list_item">
+                            <h4>2005 - 2011</h4>
+                            <h5>Samara State Aerospace University</h5>
+                            <div class="text_description">
+                                <p>Bachelor's in Applied Mathematics and Computer Science</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content_frame custom_bullet_list_frame">
+                    <h3 class="frame_title">Languages</h3>
+                    <ul class="content_list">
+                        <li class="content_list_item">
+                            <p><b>English</b> - Advanced</p>
+                        </li>
+                        <li class="content_list_item">
+                            <p><b>Russian</b> - Native</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section class="skills">
+            <section class="wrapper_right">
+                <div class="content_frame about_me_frame">
+                    <h3 class="frame_title">About Me</h3>
+                    <div class="text_description">
+                        <p>As a Full-Stack QA Engineer with over 5 years of experience in FinTech, I specialize in
+                            ensuring
+                            the quality of complex systems. My expertise combines manual and automation testing, with a
+                            primary focus on backend systems, while also extending to web and mobile applications.</p>
+                    </div>
+                </div>
+                <div class="content_frame custom_bullet_list_frame">
+                    <h3 class="frame_title">Experience</h3>
+                    <ul class="content_list custom_bullet_list">
+                        <li class="content_list_item bullet_list_item expirience_list_item">
+                            <h4>Sep 2022 - Oct 2024</h4>
+                            <h5>AQA Engineer</h5>
+                            <h4>Tinkoff Development Center</h4>
+                            <div class="text_description text_experience">
+                                <ul class="content_list">
+                                    <li class="content_list_item">
+                                        <p>Collaborated with cross-functional teams to review user stories and
+                                            requirements,
+                                            identified gaps, and made suggestions to improve testability, performance,
+                                            and
+                                            reliability.</p>
+                                    </li>
+                                    <li class="content_list_item">
+                                        <p>Designed, developed, and maintained automated tests (Java + JUnit stack) to
+                                            achieve
+                                            efficient and scalable test coverage.</p>
+                                    </li>
+                                    <li class="content_list_item">
+                                        <p>Identified, reported, and tracked defects, working closely with developers to
+                                            troubleshoot and resolve issues promptly.</p>
+                                    </li>
+                                    <li class="content_list_item">
+                                        <p>Verified product functionality across critical areas such as deployment,
+                                            migration,
+                                            security, and performance.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="content_list_item bullet_list_item expirience_list_item">
+                            <h4>Jun 2008 - Dec 2019</h4>
+                            <h5>QA Engineer</h5>
+                            <h4>Magenta Technology</h4>
+                            <div class="text_description text_experience">
+                                <ul class="content_list">
+                                    <li class="content_list_item">
+                                        <p>Contributed to analyzing requirements for new system functionality,
+                                            ensuring
+                                            alignment
+                                            with project goals.</p>
+                                    </li>
+                                    <li class="content_list_item">
+                                        <p> Created and maintained test documentation, including test cases and
+                                            checklists.</p>
+                                    </li>
+                                    <li class="content_list_item">
+                                        <p> Designed, developed, and maintained automated tests (Python, Selenium +
+                                            PyTest stack).</p>
+                                    </li>
 
+                                    <li class="content_list_item">
+                                        <p> Conducted manual testing across Backend, WebUI, and Mobile (Android) to
+                                            ensure
+                                            product
+                                            functionality and reliability.</p>
+                                    </li>
+                                    <li class="content_list_item">
+                                        <p> Performed API testing using Postman (including automated collection
+                                            creation) and
+                                            SoapUI.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
         <footer></footer>
